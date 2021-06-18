@@ -120,7 +120,7 @@ class CriarProduto extends Component {
         const value = target.value;
  
         this.setState(prevState => ({
-            usuario: { ...prevState.usuario, [produto]: value }
+            usuario: { ...prevState.usuario, [name]: value }
         }));
         console.log(value);
     };
