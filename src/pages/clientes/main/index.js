@@ -14,7 +14,7 @@ export default class Main extends Component {
     }
  
     componentDidMount() {
-        fetch(`https://backend-cadastroproduto.herokuapp.com/produto`)
+        fetch(`${process.env.REACT_APP_API_URL}`)
             .then(produto =>
                 produto.json().then(produto => this.setState({ produto }))
             )
