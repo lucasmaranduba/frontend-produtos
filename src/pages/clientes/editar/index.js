@@ -89,7 +89,7 @@ class EditarProduto extends Component {
                             <label htmlFor="dataVencimento">Data de Vencimento </label>
                             <br />
                             <input
-                                type="text"
+                                type="date"
                                 id="datavencimento"
                                 name="dataVencimento"
                                 placeholder="dataVencimento"
