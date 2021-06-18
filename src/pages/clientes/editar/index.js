@@ -112,7 +112,7 @@ class EditarProduto extends Component {
  
     handleInputChange = event => {
         const target = event.target;
-        const name = target.produto;
+        const name = target.name;
         const value = target.value;
  
         this.setState(prevState => ({
