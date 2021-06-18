@@ -116,7 +116,7 @@ class CriarProduto extends Component {
  
     handleInputChange = event => {
         const target = event.target;
-        const produto = target.produto;
+        const name = target.name;
         const value = target.value;
  
         this.setState(prevState => ({
