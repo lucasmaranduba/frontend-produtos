@@ -63,7 +63,7 @@ class CriarProduto extends Component {
                                 name="quantidade"
                                 placeholder="Quantidade"
                                 required
-                                value={this.state.produto.produto}
+                                value={this.state.produto.quantidade}
                                 onChange={this.handleInputChange}
                             />
                         </div>
